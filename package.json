@@ -1,0 +1,35 @@
+{
+  "name": "qansigliere-launchdarkly-api-integration",
+  "version": "0.0.2",
+  "description": "The main idea of this library created in the JavaScript language is to provide a ready-made set of API methods for integration with LaunchDarkly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QANSIGLIERE/LaunchDarklyAPIIntegration.git"
+  },
+  "keywords": [
+    "qansigliere",
+    "npm",
+    "npmjs",
+    "launch",
+    "darkly",
+    "launchdarkly",
+    "api",
+    "integration",
+    "js",
+    "launchdarkly",
+    "api"
+  ],
+  "author": "qansigliere@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QANSIGLIERE/LaunchDarklyAPIIntegration/issues"
+  },
+  "homepage": "https://github.com/QANSIGLIERE/LaunchDarklyAPIIntegration#readme",
+  "dependencies": {
+    "qansigliere-axios-utils": "^1.3.0"
+  }
+}
