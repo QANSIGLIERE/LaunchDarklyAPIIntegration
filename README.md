@@ -1,6 +1,7 @@
 # LaunchDarkly API Integration
 
-The main idea of ​​this library created in the JavaScript language is to provide a ready-made set of API methods for integration with LaunchDarkly
+The main idea of ​​this library created in the JavaScript language is to provide a ready-made set of API methods for
+integration with LaunchDarkly
 
 ## Author
 
@@ -26,7 +27,7 @@ export LAUNCHDARKLY_API_TOKEN="__YOUR_APIKEY__"
 
 ### Make the \*.env file works
 
-Just run in the terminal the following command: `source github.env`
+Just run in the terminal the following command: `source launchdarkly.env`
 
 ### Contexts
 
