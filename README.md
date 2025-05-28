@@ -50,6 +50,17 @@ Just run in the terminal the following command: `source launchdarkly.env`
   let request = await newIntegration.getListEnvironments("demo");
 ```
 
+### Feature Flags
+
+#### Get information about List Feature Flags
+
+The documentation is present [here](https://launchdarkly.com/docs/api/feature-flags/get-feature-flags)
+
+```
+  let newIntegration = new LaunchDarkly_API();
+  let request = await newIntegration.getListFeatureFlags("demo");
+```
+
 ## Improvements & Suggestions
 
 https://forms.gle/GZbS9hw42tSYJxKL7
