@@ -31,7 +31,9 @@ Just run in the terminal the following command: `source launchdarkly.env`
 
 ### Contexts
 
-#### Get information about Context Attribute Names
+#### Context Attribute Names
+
+The documentation is present [here](https://launchdarkly.com/docs/api/contexts/get-context-attribute-names)
 
 ```
   let newIntegration = new LaunchDarkly_API();
@@ -41,9 +43,39 @@ Just run in the terminal the following command: `source launchdarkly.env`
   );
 ```
 
+#### Contexts
+
+The documentation is present [here](https://launchdarkly.com/docs/api/contexts/get-contexts)
+
+```
+  let newIntegration = new LaunchDarkly_API();
+  let request = await newIntegration.getContexts(
+    "demo",
+    "development",
+    "user",
+    "1"
+  );
+```
+
+#### Search for contexts
+
+The documentation is present [here](https://launchdarkly.com/docs/api/contexts/search-contexts)
+
+```
+    let newIntegration = new LaunchDarkly_API();
+    let request = await newIntegration.postSearchForContexts(
+        'demo',
+        'development',
+        { filter: 'q equals "11156"', sort: '-ts' },
+        'includeTotalCount=true',
+    );
+```
+
 ### Environments
 
-#### Get information about List Environments
+#### List Environments
+
+The documentation is present [here](https://launchdarkly.com/docs/api/environments/get-environments-by-project)
 
 ```
   let newIntegration = new LaunchDarkly_API();
@@ -52,7 +84,7 @@ Just run in the terminal the following command: `source launchdarkly.env`
 
 ### Feature Flags
 
-#### Get information about List Feature Flags
+#### List Feature Flags
 
 The documentation is present [here](https://launchdarkly.com/docs/api/feature-flags/get-feature-flags)
 
