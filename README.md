@@ -93,6 +93,37 @@ The documentation is present [here](https://launchdarkly.com/docs/api/feature-fl
   let request = await newIntegration.getListFeatureFlags("demo");
 ```
 
+#### Update feature flag
+
+The documentation is present [here](https://launchdarkly.com/docs/api/feature-flags/patch-feature-flag)
+
+```
+    let newIntegration = new LaunchDarkly_API();
+    let request = await newIntegration.patchUpdateFeatureFlag(
+        'demo',
+        'myFlagName',
+        {
+            comment: '',
+            environmentKey: 'development',
+            instructions: [
+                {
+                    kind: 'removeTargets',
+                    contextKind: 'user',
+                    values: ['111561'],
+                    variationId: 'ee84241f-3a11-472e-bdcf-8eb6bc2b1f8d',
+                },
+                {
+                    kind: 'addTargets',
+                    contextKind: 'user',
+                    values: ['111561'],
+                    variationId: 'db2d8752-442d-4a8e-811c-de7d969208cf',
+                },
+            ],
+        },
+        'ignoreConflicts=true',
+    );
+```
+
 ## Improvements & Suggestions
 
 https://forms.gle/GZbS9hw42tSYJxKL7
