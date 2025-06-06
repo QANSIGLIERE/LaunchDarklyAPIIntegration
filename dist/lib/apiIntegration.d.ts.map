@@ -1,1 +1,1 @@
-{"version":3,"file":"apiIntegration.d.ts","sourceRoot":"","sources":["../../lib/apiIntegration.js"],"names":[],"mappings":"AAEA;IACI,6BAaC;IAZG,YAAgD;IAChD;;;;MAIC;IAED;;;;MAIC;IAGL,yGASC;IAED,+EAOC;IAED,+EAOC;IAED,iHASC;IAED,qHAUC;IAED,sHAQC;CACJ"}
+{"version":3,"file":"apiIntegration.d.ts","sourceRoot":"","sources":["../../lib/apiIntegration.js"],"names":[],"mappings":"AAEA;IACI,6BAaC;IAZG,YAAgD;IAChD;;;;MAIC;IAED;;;;MAIC;IAGL,yGASC;IAED,+EAOC;IAED,+EAOC;IAED,iHASC;IAED,qHAUC;IAED,sHAQC;IAED,mIAUC;CACJ"}

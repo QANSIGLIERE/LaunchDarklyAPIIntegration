@@ -31,6 +31,20 @@ Just run in the terminal the following command: `source launchdarkly.env`
 
 ### Contexts
 
+#### Evaluate flags for context instance
+
+The documentation is present [here](https://launchdarkly.com/docs/api/contexts/evaluate-context-instance)
+
+```
+    let newIntegration = new LaunchDarkly_API();
+    let request = await newIntegration.postEvaluateFlagsForContextInstance(
+        'demo',
+        'development',
+        { key: '12331', kind: 'user' },
+        'filter=query equals qan-flag-name',
+    );
+```
+
 #### Context Attribute Names
 
 The documentation is present [here](https://launchdarkly.com/docs/api/contexts/get-context-attribute-names)
