@@ -17,5 +17,6 @@ export class LaunchDarkly_API {
     getContexts(projectKey: any, environmentKey: any, kind: any, key: any, additionalFilters?: string): Promise<any>;
     postSearchForContexts(projectKey: any, environmentKey: any, jsonBody: any, additionalFilters?: string): Promise<any>;
     patchUpdateFeatureFlag(projectKey: any, featureFlagKey: any, jsonBody: any, additionalFilters?: string): Promise<any>;
+    postEvaluateFlagsForContextInstance(projectKey: any, environmentKey: any, jsonBody: any, additionalFilters?: string): Promise<any>;
 }
 //# sourceMappingURL=apiIntegration.d.ts.map
